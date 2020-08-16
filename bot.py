@@ -32,7 +32,7 @@ def echo(bot, update):
 
 
 def main():
-    updater = Updater("1002883569:AAFACRjWSU0_t0_6G9rQjlWzjK69qocMzPw", use_context=False)
+    updater = Updater("[CHANGE WITH YOUR TOKEN]", use_context=False)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
